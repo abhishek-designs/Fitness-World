@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Exo+2&family=Gotu&family=Permanent+Marker&family=Satisfy&family=Ubuntu:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+ul {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  padding-bottom: 0.6rem; }
+
+.container {
+  max-width: 1200px;
+  margin: auto; }
+
+.logo {
+  font-size: 2rem; }
+
+.main-head {
+  font-size: 4rem; }
+
+.sub-head {
+  font-size: 2rem; }
+
+.sub-sub-head {
+  font-size: 1.5rem; }
+
+.lead {
+  font-size: 1.5rem; }
+
+.sub-lead {
+  font-size: 1rem; }
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  margin-top: 1.6rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease; }
+
+.btn-primary {
+  background: #11b311;
+  color: #fcfcfc; }
+  .btn-primary:hover {
+    background: #0f9c0f; }
+
+.btn-secondary {
+  background: #fcfcfc;
+  color: #333; }
+  .btn-secondary:hover {
+    background: #0f9c0f; }
+
+.btn-light {
+  background: #fff;
+  color: #333; }
+  .btn-light:hover {
+    background: #0f9c0f; }
+
+.btn-dark {
+  background: #333;
+  color: #fff; }
+  .btn-dark:hover {
+    background: #13ca13; }
+
+.primary {
+  color: #11b311; }
+
+.secondary {
+  color: #fcfcfc; }
+
+.light {
+  color: #fff; }
+
+.dark {
+  color: #333; }
+
+.current {
+  background: #11b311;
+  border-radius: 8px;
+  border-bottom: none; }
+
+.current-alt {
+  background: #fff; }
+
+.big {
+  font-size: 1.5rem; }
+
+.nav-scroll {
+  background: #11b311;
+  box-shadow: 0 10px 12px #085608; }
+
+html body {
+  font-family: "Ubuntu",sans-serif;
+  line-height: 1.4; }
+  html body #main-showcase {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    box-shadow: 0 10px 12px #085608; }
+    html body #main-showcase:before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      background: url("../img/an-on-treadmill-1954524.jpg") no-repeat center center/cover;
+      position: absolute;
+      z-index: -1; }
+    html body #main-showcase #navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      transition: all 0.3s ease; }
+      html body #main-showcase #navbar .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.6rem 0; }
+        html body #main-showcase #navbar .container ul {
+          display: flex;
+          flex-direction: row; }
+          html body #main-showcase #navbar .container ul li {
+            padding-right: 1.5rem; }
+            html body #main-showcase #navbar .container ul li a {
+              padding: 1rem;
+              border-bottom: 3px solid transparent;
+              font-size: 1.1rem;
+              transition: border 0.3s ease; }
+              html body #main-showcase #navbar .container ul li a:hover {
+                border-color: #11b311; }
+    html body #main-showcase .container {
+      height: 100%; }
+      html body #main-showcase .container .showcase-content {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start; }
+  html body #club-section {
+    height: 100vh;
+    background: #11b311;
+    display: flex;
+    justify-content: center; }
+    html body #club-section .container .section-content {
+      text-align: center;
+      padding: 1.7rem 0;
+      margin-bottom: 1rem; }
+    html body #club-section .container .box-contain {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 3rem; }
+      html body #club-section .container .box-contain .box {
+        background: #fff;
+        box-shadow: 0 0 12px #085608; }
+        html body #club-section .container .box-contain .box img {
+          height: 210px;
+          width: 100%; }
+        html body #club-section .container .box-contain .box .red {
+          text-align: center;
+          padding: 0.4rem;
+          display: inline-block;
+          width: 100%;
+          background: #11b311;
+          margin-top: -1rem; }
+        html body #club-section .container .box-contain .box p {
+          text-align: center;
+          margin: 0.6rem; }
+  html body #services {
+    background: #333;
+    color: gray;
+    padding: 2rem;
+    border-bottom: 1px solid #999999; }
+    html body #services .container {
+      padding: 1rem 0; }
+      html body #services .container .service-content-1 {
+        text-align: center;
+        margin-bottom: 3rem; }
+      html body #services .container .service-content-2 {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3rem; }
+        html body #services .container .service-content-2 .card {
+          display: grid;
+          grid-template-columns: 1fr 3fr; }
+          html body #services .container .service-content-2 .card i {
+            padding-top: 1rem;
+            text-align: center;
+            color: #11b311; }
+  html body #main-footer {
+    background: #333; }
+    html body #main-footer .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 3rem;
+      padding-top: 1.5rem; }
+      html body #main-footer .container p {
+        grid-column: 1/span 3;
+        text-align: center;
+        margin-bottom: 1rem; }
+      html body #main-footer .container .sub-head {
+        align-self: center; }
+      html body #main-footer .container .sub-sub-head {
+        border-bottom: 2px solid #11b311; }
+      html body #main-footer .container .sub-lead {
+        margin-top: 1rem;
+        color: #999999; }
+      html body #main-footer .container ul {
+        margin-top: 1rem; }
+        html body #main-footer .container ul li {
+          padding-bottom: 0.6rem; }
+          html body #main-footer .container ul li a {
+            color: #999999;
+            transition: color 0.3s ease; }
+            html body #main-footer .container ul li a:hover {
+              color: #fff; }
