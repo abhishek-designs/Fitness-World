@@ -3,7 +3,8 @@
 const navbar = document.getElementById('navbar');
 const logo = document.getElementById('logo');
 const current = document.getElementById('current');
-var head = document.querySelector('.main-head');
+var options = document.getElementsByTagName('li');
+
 let scrolled = false;
 
 
@@ -13,7 +14,8 @@ window.onscroll = function(){
     {
         navbar.classList.add('nav-scroll');
         logo.firstChild.firstChild.classList.add('dark');
-        
+
+        // console.log(check);
         
         if(!scrolled)
         {
@@ -30,6 +32,7 @@ window.onscroll = function(){
     {
         navbar.classList.remove('nav-scroll');
         logo.firstChild.firstChild.classList.remove('dark');
+        
         scrolled = false;
     }
 }

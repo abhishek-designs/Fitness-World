@@ -12,33 +12,33 @@ ul {
   list-style: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  padding-bottom: 0.6rem; }
+  padding-bottom: 0.4rem; }
 
 .container {
   max-width: 1200px;
   margin: auto; }
 
 .logo {
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .main-head {
-  font-size: 4rem; }
+  font-size: 2.5rem; }
 
 .sub-head {
-  font-size: 2rem; }
+  font-size: 1.4rem; }
 
 .sub-sub-head {
-  font-size: 1.5rem; }
+  font-size: 1.4rem; }
 
 .lead {
-  font-size: 1.5rem; }
+  font-size: 1.2rem; }
 
 .sub-lead {
   font-size: 1rem; }
 
 .btn {
   display: inline-block;
-  padding: 0.7rem 2rem;
+  padding: 0.5rem 2rem;
   margin-top: 1.6rem;
   border: none;
   cursor: pointer;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
       border-color: #fff; }
 
 .big {
-  font-size: 1.5rem; }
+  font-size: 1.2rem; }
 
 .nav-scroll {
   background: #11b311;
@@ -119,19 +119,22 @@ html body {
       transition: all 0.3s ease; }
       html body #main-showcase #navbar .container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         padding: 0.6rem 0; }
+        html body #main-showcase #navbar .container .logo {
+          padding-bottom: 1.5rem; }
         html body #main-showcase #navbar .container ul {
           display: flex;
-          flex-direction: row; }
+          flex-direction: row;
+          margin-bottom: 0.3rem; }
           html body #main-showcase #navbar .container ul li {
-            padding-right: 1.5rem; }
+            padding-right: 0.6rem; }
             html body #main-showcase #navbar .container ul li a {
-              padding: 1rem;
+              padding: 0.5rem;
               border-bottom: 3px solid transparent;
-              font-size: 1.1rem;
+              font-size: 0.8rem;
               transition: border 0.3s ease; }
               html body #main-showcase #navbar .container ul li a:hover {
                 border-color: #fff; }
@@ -142,25 +145,31 @@ html body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start; }
+        align-items: center; }
   html body #club-section {
     height: 100vh;
     background: #11b311;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    overflow: hidden; }
     html body #club-section .container .section-content {
       text-align: center;
-      padding: 1.7rem 0;
-      margin-bottom: 1rem; }
+      padding: 0.6rem 0;
+      margin-bottom: 2; }
+      html body #club-section .container .section-content .sub-head {
+        margin-top: -4.5rem; }
+      html body #club-section .container .section-content p {
+        display: none; }
     html body #club-section .container .box-contain {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 3rem; }
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.5rem;
+      padding: 0 1rem; }
       html body #club-section .container .box-contain .box {
         background: #fff;
         box-shadow: 0 0 12px #085608; }
         html body #club-section .container .box-contain .box img {
-          height: 210px;
+          height: 150px;
           width: 100%; }
         html body #club-section .container .box-contain .box .red {
           text-align: center;
@@ -170,7 +179,8 @@ html body {
           background: #11b311;
           margin-top: -1rem; }
         html body #club-section .container .box-contain .box p {
-          text-align: center;
+          display: none;
+          text-align: right;
           margin: 0.6rem; }
   html body #services {
     background: #333;
@@ -178,14 +188,14 @@ html body {
     padding: 2rem;
     border-bottom: 1px solid #999999; }
     html body #services .container {
-      padding: 1rem 0; }
+      padding: 0.6rem 0; }
       html body #services .container .service-content-1 {
         text-align: center;
         margin-bottom: 3rem; }
       html body #services .container .service-content-2 {
         margin-top: 1rem;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         grid-gap: 3rem; }
         html body #services .container .service-content-2 .card {
           display: grid;
@@ -198,19 +208,23 @@ html body {
     background: #333; }
     html body #main-footer .container {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: 1fr;
       grid-gap: 3rem;
-      padding-top: 1.5rem; }
+      padding-top: 1.5rem;
+      text-align: center; }
       html body #main-footer .container p {
-        grid-column: 1/span 3;
+        grid-column: 1/span 1;
         text-align: center;
         margin-bottom: 1rem; }
       html body #main-footer .container .sub-head {
-        align-self: center; }
+        align-self: center;
+        font-size: 2rem; }
       html body #main-footer .container .sub-sub-head {
-        border-bottom: 2px solid #11b311; }
+        border-bottom: 2px solid #11b311;
+        display: inline-block; }
       html body #main-footer .container .sub-lead {
         margin-top: 1rem;
+        font-size: 0.8rem;
         color: #999999; }
       html body #main-footer .container ul {
         margin-top: 1rem; }

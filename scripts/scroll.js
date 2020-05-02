@@ -8,7 +8,7 @@ $('.btn, a').on('click',function(e)
 
         $('html, body').animate(
             {
-                scrollTop: $(hash).offset().top - 30
+                scrollTop: $(hash).offset().top - 65
             },
             800
         );
