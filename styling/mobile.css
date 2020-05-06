@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.2rem; }
 
 .nav-scroll {
-  background: #11b311;
+  background: rgba(17, 179, 17, 0.8);
   box-shadow: 0 10px 12px #085608; }
 
 html body {
@@ -182,6 +182,46 @@ html body {
           display: none;
           text-align: right;
           margin: 0.6rem; }
+  html body #gallery {
+    padding: 2rem; }
+    html body #gallery .container .gallery-content {
+      text-align: center;
+      padding: 1.7rem 0;
+      margin-bottom: 3rem; }
+    html body #gallery .container .gallery-img {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+      margin-bottom: 5rem; }
+      html body #gallery .container .gallery-img .box {
+        height: 120px;
+        width: 200px;
+        margin-bottom: 1rem;
+        overflow: hidden;
+        position: relative; }
+        html body #gallery .container .gallery-img .box img {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          transition: all 1s ease; }
+        html body #gallery .container .gallery-img .box:hover img {
+          height: 150%;
+          width: 150%; }
+        html body #gallery .container .gallery-img .box .img-overlay {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          color: #fff;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: rgba(0, 0, 0, 0.7);
+          transform: scaleY(0);
+          transition: transform 0.5s ease; }
+        html body #gallery .container .gallery-img .box:hover .img-overlay {
+          transform: scaleY(1); }
   html body #services {
     background: #333;
     color: gray;

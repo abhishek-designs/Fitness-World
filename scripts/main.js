@@ -14,7 +14,7 @@ window.onscroll = function(){
     {
         navbar.classList.add('nav-scroll');
         logo.firstChild.firstChild.classList.add('dark');
-
+        navbar.firstChild.classList.add('index');
         // console.log(check);
         
         if(!scrolled)
