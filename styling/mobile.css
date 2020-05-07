@@ -293,6 +293,8 @@ html body {
         grid-column: 1/span 1;
         text-align: center;
         margin-bottom: 1rem; }
+      html body #main-footer .container .box .lead {
+        text-align: center; }
       html body #main-footer .container .sub-head {
         align-self: center;
         font-size: 2rem; }
