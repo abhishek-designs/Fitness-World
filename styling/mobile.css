@@ -169,7 +169,7 @@ html body {
         background: #fff;
         box-shadow: 0 0 12px #085608; }
         html body #club-section .container .box-contain .box img {
-          height: 150px;
+          height: 120px;
           width: 100%; }
         html body #club-section .container .box-contain .box .red {
           text-align: center;
@@ -183,7 +183,7 @@ html body {
           text-align: right;
           margin: 0.6rem; }
   html body #gallery {
-    padding: 2rem; }
+    padding: 1rem; }
     html body #gallery .container .gallery-content {
       text-align: center;
       padding: 1.7rem 0;
@@ -191,12 +191,12 @@ html body {
     html body #gallery .container .gallery-img {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-gap: 1rem;
+      grid-gap: 0.6rem;
       margin-bottom: 5rem; }
       html body #gallery .container .gallery-img .box {
-        height: 120px;
-        width: 200px;
-        margin-bottom: 1rem;
+        height: 110px;
+        width: 160px;
+        margin: 0.6rem auto;
         overflow: hidden;
         position: relative; }
         html body #gallery .container .gallery-img .box img {
@@ -220,12 +220,49 @@ html body {
           background: rgba(0, 0, 0, 0.7);
           transform: scaleY(0);
           transition: transform 0.5s ease; }
+          html body #gallery .container .gallery-img .box .img-overlay .sub-lead {
+            font-size: 0.8rem; }
+          html body #gallery .container .gallery-img .box .img-overlay .btn {
+            padding: 0.5rem 1.2rem;
+            font-size: 0.7rem; }
         html body #gallery .container .gallery-img .box:hover .img-overlay {
           transform: scaleY(1); }
+  html body #videos {
+    padding: 1rem;
+    background: #11b311; }
+    html body #videos .container .sub-head {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-top: 1.7rem; }
+    html body #videos .container .box {
+      display: flex;
+      width: 100%;
+      height: 40vh;
+      padding: 1rem;
+      margin-bottom: 1rem; }
+      html body #videos .container .box:nth-child(2n) {
+        background: #15e215;
+        color: #333; }
+      html body #videos .container .box .video-content {
+        width: 60%;
+        padding: 0 1rem;
+        display: none; }
+      html body #videos .container .box .video-frame {
+        position: relative;
+        height: 100%;
+        width: 100%; }
+        html body #videos .container .box .video-frame iframe {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0; }
   html body #services {
     background: #333;
     color: gray;
-    padding: 2rem;
+    padding: 1rem;
     border-bottom: 1px solid #999999; }
     html body #services .container {
       padding: 0.6rem 0; }

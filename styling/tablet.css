@@ -169,7 +169,7 @@ html body {
         background: #fff;
         box-shadow: 0 0 12px #085608; }
         html body #club-section .container .box-contain .box img {
-          height: 150px;
+          height: 250px;
           width: 100%; }
         html body #club-section .container .box-contain .box .red {
           text-align: center;
@@ -177,11 +177,89 @@ html body {
           display: inline-block;
           width: 100%;
           background: #11b311;
-          margin-top: -1rem; }
+          margin-top: -1rem;
+          font-size: 1rem; }
         html body #club-section .container .box-contain .box p {
           display: none;
           text-align: right;
           margin: 0.6rem; }
+  html body #gallery {
+    padding: 1rem; }
+    html body #gallery .container .gallery-content {
+      text-align: center;
+      padding: 1.7rem 0;
+      margin-bottom: 3rem; }
+    html body #gallery .container .gallery-img {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0rem;
+      margin-bottom: 5rem; }
+      html body #gallery .container .gallery-img .box {
+        height: 250px;
+        width: 360px;
+        margin: 1.5rem auto;
+        overflow: hidden;
+        position: relative; }
+        html body #gallery .container .gallery-img .box img {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          transition: all 1s ease; }
+        html body #gallery .container .gallery-img .box:hover img {
+          height: 150%;
+          width: 150%; }
+        html body #gallery .container .gallery-img .box .img-overlay {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          color: #fff;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: rgba(0, 0, 0, 0.7);
+          transform: scaleY(0);
+          transition: transform 0.5s ease; }
+          html body #gallery .container .gallery-img .box .img-overlay .sub-lead {
+            font-size: 0.8rem; }
+          html body #gallery .container .gallery-img .box .img-overlay .btn {
+            padding: 0.5rem 1.2rem;
+            font-size: 0.7rem; }
+        html body #gallery .container .gallery-img .box:hover .img-overlay {
+          transform: scaleY(1); }
+  html body #videos {
+    padding: 1rem;
+    background: #11b311; }
+    html body #videos .container .sub-head {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-top: 1.7rem; }
+    html body #videos .container .box {
+      display: flex;
+      width: 80vw;
+      height: 40vh;
+      padding: 1rem;
+      margin: 1rem auto; }
+      html body #videos .container .box:nth-child(2n) {
+        background: #15e215;
+        color: #333; }
+      html body #videos .container .box .video-content {
+        width: 60%;
+        padding: 0 1rem;
+        display: none; }
+      html body #videos .container .box .video-frame {
+        position: relative;
+        height: 100%;
+        width: 100%; }
+        html body #videos .container .box .video-frame iframe {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0; }
   html body #services {
     background: #333;
     color: gray;

@@ -277,13 +277,42 @@ html body {
       grid-gap: 3rem;
       padding-top: 1.5rem; }
       html body #main-footer .container p {
-        grid-column: 1/span 3;
+        grid-column: 1/span 4;
         text-align: center;
         margin-bottom: 1rem; }
       html body #main-footer .container .box .lead {
         color: #999999;
         font-size: 1rem;
-        margin-top: 1rem; }
+        margin-top: 1rem;
+        text-align: left; }
+      html body #main-footer .container .box .form-box {
+        display: inline-block;
+        position: relative;
+        padding: 0.7rem;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 40px;
+        margin: auto; }
+        html body #main-footer .container .box .form-box .mail {
+          background: #1a1a1a;
+          border: none;
+          outline: 0;
+          color: #333;
+          float: left;
+          width: 150px;
+          line-height: 3.5;
+          background: #fff;
+          border-radius: 40px;
+          margin-right: 0.5rem;
+          padding: 0 0.6rem;
+          font-family: "Ubuntu", san-serif; }
+        html body #main-footer .container .box .form-box .btn {
+          padding: 1rem;
+          margin: 0;
+          border-radius: 50%;
+          float: right;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
       html body #main-footer .container .sub-head {
         align-self: center; }
       html body #main-footer .container .sub-sub-head {
