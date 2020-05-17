@@ -127,7 +127,9 @@ html body {
         html body #main-showcase #navbar .container .menu-wrap {
           display: block;
           position: fixed;
-          align-self: flex-start; }
+          align-self: flex-start;
+          top: 10px;
+          left: 5px; }
           html body #main-showcase #navbar .container .menu-wrap .toggler {
             position: absolute;
             height: 40px;
@@ -207,7 +209,7 @@ html body {
           html body #main-showcase #navbar .container .pc-list .pc-item {
             display: none; }
         html body #main-showcase #navbar .container .logo {
-          padding-bottom: 1.5rem;
+          padding-top: 1.5rem;
           align-self: center; }
         html body #main-showcase #navbar .container ul {
           display: block;
