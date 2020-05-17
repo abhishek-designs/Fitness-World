@@ -4,6 +4,7 @@ const navbar = document.getElementById('navbar');
 const logo = document.getElementById('logo');
 const current = document.getElementById('current');
 var options = document.getElementsByTagName('li');
+const menu = document.getElementById('menu-wrap');
 
 let scrolled = false;
 
@@ -15,6 +16,7 @@ window.onscroll = function(){
         navbar.classList.add('nav-scroll');
         logo.firstChild.firstChild.classList.add('dark');
         navbar.firstChild.classList.add('index');
+        menu.style.background = 'none';
         // console.log(check);
         
         if(!scrolled)
