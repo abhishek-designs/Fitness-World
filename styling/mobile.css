@@ -158,7 +158,7 @@ html body {
             display: flex;
             justify-content: center;
             align-items: center;
-            z-index: 1; }
+            transition: all 0.5s ease; }
             html body #main-showcase #navbar .container .menu-wrap .hamburger div {
               position: relative;
               width: 100%;
@@ -182,18 +182,19 @@ html body {
             height: 100%;
             display: flex;
             justify-content: center;
-            align-items: center; }
+            align-items: center;
+            visibility: hidden; }
             html body #main-showcase #navbar .container .menu-wrap .menu div {
               position: absolute;
-              width: 200vw;
-              height: 200vw;
+              width: 400vw;
+              height: 400vw;
               background: rgba(0, 0, 0, 0.7);
               display: flex;
               justify-content: center;
               align-items: center;
               border-radius: 50%;
               transform: scale(0);
-              transition: transform 0.3s ease; }
+              transition: transform 0.5s ease; }
               html body #main-showcase #navbar .container .menu-wrap .menu div .mobo-list {
                 text-align: center; }
                 html body #main-showcase #navbar .container .menu-wrap .menu div .mobo-list li {
