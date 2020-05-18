@@ -137,7 +137,7 @@ html body {
             z-index: 2;
             opacity: 0; }
             html body #main-showcase #navbar .container .menu-wrap .toggler:checked + .hamburger {
-              background: red;
+              background: #e91818;
               border-radius: 50%; }
             html body #main-showcase #navbar .container .menu-wrap .toggler:checked + .hamburger > div {
               transform: rotate(135deg); }
