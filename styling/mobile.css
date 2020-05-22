@@ -102,7 +102,7 @@ html body {
   line-height: 1.4; }
   html body #main-showcase {
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     position: relative;
     box-shadow: 0 10px 12px #085608; }
     html body #main-showcase:before {
@@ -137,7 +137,6 @@ html body {
             z-index: 2;
             opacity: 0; }
             html body #main-showcase #navbar .container .menu-wrap .toggler:checked + .hamburger {
-              background: #e91818;
               border-radius: 50%; }
             html body #main-showcase #navbar .container .menu-wrap .toggler:checked + .hamburger > div {
               transform: rotate(135deg); }

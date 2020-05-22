@@ -96,6 +96,9 @@ h1, h2, h3, h4, h5, h6 {
 .big {
   font-size: 1.5rem; }
 
+.txt {
+  color: #11b311; }
+
 .nav-scroll {
   background: rgba(17, 179, 17, 0.8);
   box-shadow: 0 10px 12px #085608; }
@@ -105,7 +108,7 @@ html body {
   line-height: 1.4; }
   html body #main-showcase {
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     position: relative;
     box-shadow: 0 10px 12px #085608; }
     html body #main-showcase:before {
@@ -366,7 +369,7 @@ html body {
         display: inline-block;
         position: relative;
         padding: 0.7rem;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.7);
         border-radius: 40px;
         margin: auto; }
         html body #main-footer .container .box .form-box .mail {
